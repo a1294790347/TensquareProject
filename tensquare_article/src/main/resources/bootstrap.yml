@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: article #Git服务器上传的配置文件“-”前面的名字
+      profile: dev #Git服务器上传的配置文件“-”后面的名字
+      label: master #提交到主干
+      uri: http://localhost:12000
